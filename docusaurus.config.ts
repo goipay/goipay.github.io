@@ -16,7 +16,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'chekist32', // Usually your GitHub org/user name.
-  projectName: 'goipay', // Usually your repo name.
+  projectName: 'goipay.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,8 +37,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/goipay/goipay-docs/tree/master/',
+          editUrl: 'https://github.com/goipay/goipay.github.io/tree/master/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -59,9 +58,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'docsSidebar',
           position: 'left',
           label: 'Docs',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'apiReferenceSidebar',
+          position: 'left',
+          label: 'API Reference',
         },
         {
           href: 'https://github.com/goipay/goipay',
