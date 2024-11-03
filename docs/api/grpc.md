@@ -72,7 +72,7 @@ Creates a new user, either by generating a new UUID or by using a UUID specified
   <tbody>
     <tr>
       <td>InvalidArgument</td>
-      <td>invalid userId (uuid)</td>
+      <td>Invalid userId (invalid UUID).</td>
       <td>Provided in the request userId is not a UUID.</td>
     </tr>
     <tr>
@@ -145,12 +145,12 @@ None.
   <tbody>
     <tr>
       <td>InvalidArgument</td>
-      <td>invalid userId</td>
+      <td>Invalid userId (invalid UUID).</td>
       <td>Provided in the request userId is not a UUID.</td>
     </tr>
     <tr>
       <td>InvalidArgument</td>
-      <td>Invalid userId</td>
+      <td>Invalid userId (user exists).</td>
       <td>The user with the provided userId in the request does not exist.</td>
     </tr>
     <tr>
@@ -238,12 +238,12 @@ Returns the user`s crypto keys.
   <tbody>
     <tr>
       <td>InvalidArgument</td>
-      <td>invalid userId</td>
+      <td>Invalid userId (invalid UUID).</td>
       <td>Provided in the request userId is not a UUID.</td>
     </tr>
     <tr>
       <td>InvalidArgument</td>
-      <td>Invalid userId</td>
+      <td>Invalid userId (user exists).</td>
       <td>The user with the provided userId in the request does not exist.</td>
     </tr>
     <tr>
@@ -356,7 +356,7 @@ Creates a new invoice.
   <tbody>
     <tr>
       <td>InvalidArgument</td>
-      <td>Invoice amount can't be below 0</td>
+      <td>Invoice amount can't be below 0.</td>
       <td>None.</td>
     </tr>
     <tr>
@@ -415,12 +415,12 @@ None.
   <tbody>
     <tr>
       <td>Canceled</td>
-      <td>stream has been closed</td>
+      <td>Stream has been closed.</td>
       <td>None.</td>
     </tr>
     <tr>
       <td>Canceled</td>
-      <td>An error occured while sending data</td>
+      <td>An error occured while sending data.</td>
       <td>None.</td>
     </tr>
   </tbody>
@@ -497,7 +497,7 @@ The stream RPC provides real-time updates on the status of invoices.
   <tbody>
     <tr>
       <td>Internal</td>
-      <td>invalid payment id</td>
+      <td>Invalid paymentId (invalid UUID).</td>
       <td>None.</td>
     </tr>
     <tr>
