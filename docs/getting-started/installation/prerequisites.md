@@ -37,7 +37,7 @@ goose -dir ./sql/migrations postgres postgresql://YOUR_DB_USER:YOUR_DB_PASS@YOUR
 Also you can apply migrations usign docker container.
 
 #### Docker Compose
-```shell
+```yaml
 migrations:
     image: ghcr.io/kukymbr/goose-docker:3.21.1
     environment:
