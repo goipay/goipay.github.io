@@ -8,6 +8,8 @@ sidebar_position: 1
 
 GoiPay is a lightweight cryptocurrency payment processor microservice, written in Golang, designed for creating and processing cryptocurrency invoices via gRPC.
 
+It was built as a service-to-service solution with limited functionality, primarily focusing on the basic features described above, so you can easily integrate it into your own projects.
+
 ## Key Features
 
 - **Self-hosted**: Run it on your own infrastructure
