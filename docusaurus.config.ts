@@ -99,6 +99,10 @@ const config: Config = {
               label: 'Docs',
               to: '/docs/introduction',
             },
+            {
+              label: 'API Reference',
+              to: '/docs/api/grpc',
+            },
           ],
         },
         {
