@@ -5,7 +5,7 @@ sidebar_position: 2
 ---
 
 Here you can see an example .env file:
-```ini
+```ini title=".env.example"
 # Can be either 'prod' or 'dev'.
 # In 'dev' mode, a reflection server is established.
 MODE=dev

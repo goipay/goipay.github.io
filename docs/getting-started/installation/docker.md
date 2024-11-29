@@ -7,7 +7,7 @@ sidebar_position: 2
 The simplest way to set up GoiPay is by using the Docker image.
 
 Here you can find an example Docker Compose file:
-```yaml
+```yaml title="docker-compose.yml"
 version: '3.8'
 
 services:
