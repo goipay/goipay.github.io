@@ -46,6 +46,16 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        indexBlog: false
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/goipay-social-card.jpg',
@@ -71,6 +81,10 @@ const config: Config = {
         {
           href: 'https://github.com/goipay/goipay',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'search', // Add this line to include the search bar
           position: 'right',
         },
       ],
