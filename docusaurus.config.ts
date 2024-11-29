@@ -46,6 +46,16 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        indexBlog: false
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/goipay-social-card.jpg',
@@ -73,6 +83,10 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'search', // Add this line to include the search bar
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -84,6 +98,10 @@ const config: Config = {
             {
               label: 'Docs',
               to: '/docs/introduction',
+            },
+            {
+              label: 'API Reference',
+              to: '/docs/api/grpc',
             },
           ],
         },
@@ -111,6 +129,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: ['ini', 'bash']
     },
   } satisfies Preset.ThemeConfig,
 };
