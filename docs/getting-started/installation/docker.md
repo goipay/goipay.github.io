@@ -41,7 +41,8 @@ services:
     env_file:
       - ./.env
     depends_on:
-      - migrations
+      migrations:
+        condition: service_completed_successfully
     ports:
       - "3000:3000"
 ```
