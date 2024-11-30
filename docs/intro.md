@@ -12,7 +12,18 @@ It was built as a service-to-service solution with limited functionality, primar
 
 ## Key Features
 
-- **Self-hosted**: Run it on your own infrastructure
-- **Lightweight**: Minimal resource requirements (does not rely on the wallet RPC)
-- **Multi-currency**: Support for multiple cryptocurrencies (coming soon)
-- **Multi-user**: Support for multiple users
+- **Self-hosted**
+
+    The project is open-source, allowing you to run it on your own infrastructure without relying on third-party services.
+
+- **Lightweight**
+
+    Minimal resource requirements (does not rely on the wallet RPC)
+
+- **Multi-currency**
+
+    Support for multiple cryptocurrencies (coming soon). Currently only XMR is available.
+
+- **Multi-user**
+    
+    Support for multiple users. This is ideal for projects/businesses where multiple people need to access the system simultaneously.
