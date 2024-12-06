@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'GoiPay',
-  tagline: 'A lightweight crypto payment processor',
+  tagline: 'A lightweight, open-source, self-hosted crypto payment processor',
   favicon: 'img/goipay-logo.svg',
 
   // Set the production url of your site here
