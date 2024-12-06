@@ -10,12 +10,12 @@ Here you can see an example .env file:
 # In 'dev' mode, a reflection server is established.
 MODE=dev
 
-SERVER_HOST=localhost
+SERVER_HOST=0.0.0.0
 SERVER_PORT=3000
 
 # As for now, only PostgreSQL is supported
-DATABASE_HOST=localhost
-DATABASE_PORT=54321
+DATABASE_HOST=db
+DATABASE_PORT=5432
 DATABASE_USER=postgres
 DATABASE_PASS=postgres
 DATABASE_NAME=goipay_db
