@@ -8,7 +8,7 @@ The simplest way to set up GoiPay is by using the Docker image.
 
 Here you can find an example Docker Compose file:
 ```yaml title="docker-compose.yml"
-version: '3.8'
+version: '3.4'
 
 services:
   db:
@@ -40,9 +40,12 @@ services:
     image: chekist32/goipay:latest
     env_file:
       - ./.env
+    volumes:
+      - ./cert/server:/app/cert/server
     depends_on:
       migrations:
         condition: service_completed_successfully
+    command: ["--log-level=debug", "--reflection"]
     ports:
       - "3000:3000"
 ```
