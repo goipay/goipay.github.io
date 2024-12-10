@@ -10,7 +10,7 @@ displayed_sidebar: docsSidebar
 Since `v0.4.0`, GoiPay supports TLS connections to enhance security and ensure encrypted communication between clients and the server.
 
 ## Configuration
-For more detailed configuration [see this](http://localhost:3000/docs/getting-started/configuration)
+For more detailed configuration [see this](/docs/getting-started/configuration)
 
 ### TLS Modes
 1. **`none`**: No encryption is applied. Communication is sent as plain text.
