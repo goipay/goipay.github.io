@@ -122,6 +122,12 @@ Updates the user`s crypto keys.
       <td>No</td>
       <td>XMR crypto keys update request.</td>
     </tr>
+    <tr>
+      <td>btcReq</td>
+      <td><a href="#btckeysupdaterequest">BtcKeysUpdateRequest</a></td>
+      <td>No</td>
+      <td>BTC crypto keys update request.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -494,7 +500,7 @@ None.
   </tbody>
 </table>
 
-### XmrKeys
+### BtcKeysUpdateRequest
 
 <table>
   <thead>
@@ -506,12 +512,7 @@ None.
   </thead>
   <tbody>
     <tr>
-      <td>privViewKey</td>
-      <td>string</td>
-      <td>None.</td>
-    </tr>
-    <tr>
-      <td>pubSpendKey</td>
+      <td>masterPubKey</td>
       <td>string</td>
       <td>None.</td>
     </tr>
