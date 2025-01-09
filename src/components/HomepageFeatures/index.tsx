@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
     Icon: Wallet,
     description: (
       <>
-        Support for multiple cryptocurrencies (coming soon) 
+        Support for multiple cryptocurrencies
       </>
     ),
   },

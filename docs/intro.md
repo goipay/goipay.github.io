@@ -22,8 +22,12 @@ It was built as a service-to-service solution with limited functionality, primar
 
 - **Multi-currency**
 
-    Support for multiple cryptocurrencies (coming soon). Currently only XMR is available.
+    Support for multiple cryptocurrencies.
 
 - **Multi-user**
     
     Support for multiple users. This is ideal for projects/businesses where multiple people need to access the system simultaneously.
+
+## Supported Crypto
+- XMR
+- BTC
