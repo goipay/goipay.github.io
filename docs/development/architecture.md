@@ -7,4 +7,4 @@ displayed_sidebar: docsSidebar
 
 ## DB Schema
 
-![DB Schema](/img/goipay_db_scheme.svg)
+![DB Schema](/img/goipay_db_schema.svg)
