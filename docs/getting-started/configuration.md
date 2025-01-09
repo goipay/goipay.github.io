@@ -29,6 +29,11 @@ coin:
       url: ${XMR_DAEMON_URL}
       user: ${XMR_DAEMON_USER}
       pass: ${XMR_DAEMON_PASS}
+  btc:
+    daemon:
+      url: ${BTC_DAEMON_URL}
+      user: ${BTC_DAEMON_USER}
+      pass: ${BTC_DAEMON_PASS}
 ```
 
 <details>
@@ -179,6 +184,39 @@ coin:
             </details>
         </details>
     </details>
+    <details>
+        <summary>btc</summary>
+        <details>
+            <summary>daemon</summary>
+            <details>
+                <summary>url</summary>
+                <div>
+                    <p><strong>Description:</strong> The URL of the Bitcoin (BTC) daemon endpoint.</p>
+                    <p><strong>CLI Option:</strong> <code>none</code></p>
+                    <p><strong>Environment Variable:</strong> <code>BTC_DAEMON_URL</code></p>
+                    <p><strong>Default Value:</strong> <code>none</code></p>
+                </div>
+            </details>
+            <details>
+                <summary>user</summary>
+                <div>
+                    <p><strong>Description:</strong> The username for authenticating with the BTC daemon.</p>
+                    <p><strong>CLI Option:</strong> <code>none</code></p>
+                    <p><strong>Environment Variable:</strong> <code>BTC_DAEMON_USER</code></p>
+                    <p><strong>Default Value:</strong> <code>none</code></p>
+                </div>
+            </details>
+            <details>
+                <summary>pass</summary>
+                <div>
+                    <p><strong>Description:</strong> The password for authenticating with the BTC daemon.</p>
+                    <p><strong>CLI Option:</strong> <code>none</code></p>
+                    <p><strong>Environment Variable:</strong> <code>BTC_DAEMON_PASS</code></p>
+                    <p><strong>Default Value:</strong> <code>none</code></p>
+                </div>
+            </details>
+        </details>
+    </details>
 </details>
 
 ## Example env file
@@ -203,6 +241,10 @@ DATABASE_NAME=goipay_db
 XMR_DAEMON_URL=http://node.monerodevs.org:38089
 XMR_DAEMON_USER=
 XMR_DAEMON_PASS=
+
+BTC_DAEMON_URL=http://localhost:38332
+BTC_DAEMON_USER=user
+BTC_DAEMON_PASS=pass
 ```
 
 ## Misc CLI options
