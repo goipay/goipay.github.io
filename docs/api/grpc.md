@@ -128,6 +128,12 @@ Updates the user`s crypto keys.
       <td>No</td>
       <td>BTC crypto keys update request.</td>
     </tr>
+    <tr>
+      <td>ltcReq</td>
+      <td><a href="#ltckeysupdaterequest">LtcKeysUpdateRequest</a></td>
+      <td>No</td>
+      <td>LTC crypto keys update request.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -501,6 +507,25 @@ None.
 </table>
 
 ### BtcKeysUpdateRequest
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>masterPubKey</td>
+      <td>string</td>
+      <td>None.</td>
+    </tr>
+  </tbody>
+</table>
+
+### LtcKeysUpdateRequest
 
 <table>
   <thead>
