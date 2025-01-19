@@ -34,6 +34,11 @@ coin:
       url: ${BTC_DAEMON_URL}
       user: ${BTC_DAEMON_USER}
       pass: ${BTC_DAEMON_PASS}
+  ltc:
+    daemon:
+      url: ${LTC_DAEMON_URL}
+      user: ${LTC_DAEMON_USER}
+      pass: ${LTC_DAEMON_PASS}
 ```
 
 <details>
@@ -217,6 +222,39 @@ coin:
             </details>
         </details>
     </details>
+    <details>
+        <summary>ltc</summary>
+        <details>
+            <summary>daemon</summary>
+            <details>
+                <summary>url</summary>
+                <div>
+                    <p><strong>Description:</strong> The URL of the Litecoin (LTC) daemon endpoint.</p>
+                    <p><strong>CLI Option:</strong> <code>none</code></p>
+                    <p><strong>Environment Variable:</strong> <code>LTC_DAEMON_URL</code></p>
+                    <p><strong>Default Value:</strong> <code>none</code></p>
+                </div>
+            </details>
+            <details>
+                <summary>user</summary>
+                <div>
+                    <p><strong>Description:</strong> The username for authenticating with the LTC daemon.</p>
+                    <p><strong>CLI Option:</strong> <code>none</code></p>
+                    <p><strong>Environment Variable:</strong> <code>LTC_DAEMON_USER</code></p>
+                    <p><strong>Default Value:</strong> <code>none</code></p>
+                </div>
+            </details>
+            <details>
+                <summary>pass</summary>
+                <div>
+                    <p><strong>Description:</strong> The password for authenticating with the LTC daemon.</p>
+                    <p><strong>CLI Option:</strong> <code>none</code></p>
+                    <p><strong>Environment Variable:</strong> <code>LTC_DAEMON_PASS</code></p>
+                    <p><strong>Default Value:</strong> <code>none</code></p>
+                </div>
+            </details>
+        </details>
+    </details>
 </details>
 
 ## Example env file
@@ -245,6 +283,10 @@ XMR_DAEMON_PASS=
 BTC_DAEMON_URL=http://localhost:38332
 BTC_DAEMON_USER=user
 BTC_DAEMON_PASS=pass
+
+LTC_DAEMON_URL=http://localhost:18444
+LTC_DAEMON_USER=user
+LTC_DAEMON_PASS=pass
 ```
 
 ## Misc CLI options

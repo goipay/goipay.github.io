@@ -31,3 +31,4 @@ It was built as a service-to-service solution with limited functionality, primar
 ## Supported Crypto
 - XMR
 - BTC
+- LTC
