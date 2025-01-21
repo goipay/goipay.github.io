@@ -138,7 +138,7 @@ Updates the user`s crypto keys.
       <td>ethReq</td>
       <td><a href="#ethkeysupdaterequest">EthKeysUpdateRequest</a></td>
       <td>No</td>
-      <td>LTC crypto keys update request.</td>
+      <td>ETH crypto keys update request.</td>
     </tr>
   </tbody>
 </table>
