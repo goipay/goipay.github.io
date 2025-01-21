@@ -32,17 +32,4 @@ It was built as a service-to-service solution with limited functionality, primar
 - XMR
 - BTC
 - LTC
-- ETH
-    - USDT
-    - USDC
-    - DAI
-    - WBTC
-    - UNI
-    - LINK
-    - AAVE
-    - CRV
-    - MATIC
-    - SHIB
-    - BNB
-    - ATOM
-    - ARB
+- ETH (USDT, USDC, DAI, WBTC, UNI, LINK, AAVE, CRV, MATIC, SHIB, BNB, ATOM, ARB)
