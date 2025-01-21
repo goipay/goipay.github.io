@@ -485,6 +485,58 @@ None.
       <td>TON</td>
       <td>None.</td>
     </tr>
+    <tr>
+      <td>USDT_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>USDC_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>DAI_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>WBTC_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>UNI_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>LINK_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>AAVE_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>CRV_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>MATIC_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>SHIB_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>BNB_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>ATOM_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
+    <tr>
+      <td>ARB_ERC20</td>
+      <td>ERC-20 token.</td>
+    </tr>
   </tbody>
 </table>
 
