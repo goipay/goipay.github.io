@@ -39,6 +39,9 @@ coin:
       url: ${LTC_DAEMON_URL}
       user: ${LTC_DAEMON_USER}
       pass: ${LTC_DAEMON_PASS}
+  eth:
+    daemon:
+      url: ${ETH_DAEMON_URL}
 ```
 
 <details>
@@ -255,6 +258,21 @@ coin:
             </details>
         </details>
     </details>
+    <details>
+        <summary>eth</summary>
+        <details>
+            <summary>daemon</summary>
+            <details>
+                <summary>url</summary>
+                <div>
+                    <p><strong>Description:</strong> The URL of the Litecoin (ETH) daemon endpoint.</p>
+                    <p><strong>CLI Option:</strong> <code>none</code></p>
+                    <p><strong>Environment Variable:</strong> <code>ETH_DAEMON_URL</code></p>
+                    <p><strong>Default Value:</strong> <code>none</code></p>
+                </div>
+            </details>
+        </details>
+    </details>
 </details>
 
 ## Example env file
@@ -287,6 +305,8 @@ BTC_DAEMON_PASS=pass
 LTC_DAEMON_URL=http://localhost:18444
 LTC_DAEMON_USER=user
 LTC_DAEMON_PASS=pass
+
+ETH_DAEMON_URL=https://ethereum.publicnode.com
 ```
 
 ## Misc CLI options
