@@ -39,7 +39,7 @@ Also you can apply migrations usign docker container.
 #### Docker Compose
 ```yaml
 migrations:
-    image: ghcr.io/kukymbr/goose-docker:3.21.1
+    image: ghcr.io/kukymbr/goose-docker:latest
     environment:
     - GOOSE_DRIVER=postgres
     - GOOSE_DBSTRING=host=YOUR_DB_HOST port=YOUR_DB_PORT user=YOUR_DB_USER password=YOUR_DB_PASS dbname=YOUR_DB_NAME
@@ -52,5 +52,5 @@ docker run --rm \
     -e GOOSE_DRIVER=postgres \
     -e GOOSE_DBSTRING="host=YOUR_DB_HOST port=YOUR_DB_PORT user=YOUR_DB_USER password=YOUR_DB_PASS dbname=YOUR_DB_NAME" \
     -v PATH_TO_THE_MIGRATIONS_FOLDER:/migrations \
-    ghcr.io/kukymbr/goose-docker:3.21.1 \
+    ghcr.io/kukymbr/goose-docker:latest \
 ```
