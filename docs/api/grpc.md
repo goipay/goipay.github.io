@@ -76,6 +76,11 @@ Creates a new user, either by generating a new UUID or by using a UUID specified
       <td>Provided in the request userId is not a UUID.</td>
     </tr>
     <tr>
+      <td>InvalidArgument</td>
+      <td>Invalid userId (user exists).</td>
+      <td>Provided in the request userId already exists in DB.</td>
+    </tr>
+    <tr>
       <td>Internal</td>
       <td>An error occurred while initiating an SQL transaction.</td>
       <td>None.</td>
@@ -167,7 +172,7 @@ None.
     </tr>
     <tr>
       <td>InvalidArgument</td>
-      <td>Invalid userId (user exists).</td>
+      <td>Invalid userId (user does not exist).</td>
       <td>The user with the provided userId in the request does not exist.</td>
     </tr>
     <tr>
@@ -282,6 +287,11 @@ Creates a new invoice.
       <td>InvalidArgument</td>
       <td>Invoice amount can't be below 0.</td>
       <td>None.</td>
+    </tr>
+    <tr>
+      <td>InvalidArgument</td>
+      <td>Invalid userId (user does not exist).</td>
+      <td>The user with the provided userId in the request does not exist.</td>
     </tr>
     <tr>
       <td>Internal</td>
