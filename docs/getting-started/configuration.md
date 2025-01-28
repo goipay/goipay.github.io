@@ -42,6 +42,9 @@ coin:
   eth:
     daemon:
       url: ${ETH_DAEMON_URL}
+  bnb:
+    daemon:
+      url: ${BNB_DAEMON_URL}
 ```
 
 <details>
@@ -265,9 +268,24 @@ coin:
             <details>
                 <summary>url</summary>
                 <div>
-                    <p><strong>Description:</strong> The URL of the Litecoin (ETH) daemon endpoint.</p>
+                    <p><strong>Description:</strong> The URL of the Ethereum (ETH) daemon endpoint.</p>
                     <p><strong>CLI Option:</strong> <code>none</code></p>
                     <p><strong>Environment Variable:</strong> <code>ETH_DAEMON_URL</code></p>
+                    <p><strong>Default Value:</strong> <code>none</code></p>
+                </div>
+            </details>
+        </details>
+    </details>
+    <details>
+        <summary>bnb</summary>
+        <details>
+            <summary>daemon</summary>
+            <details>
+                <summary>url</summary>
+                <div>
+                    <p><strong>Description:</strong> The URL of the BNB Smart Chain (BNB(BSC)) daemon endpoint.</p>
+                    <p><strong>CLI Option:</strong> <code>none</code></p>
+                    <p><strong>Environment Variable:</strong> <code>BNB_DAEMON_URL</code></p>
                     <p><strong>Default Value:</strong> <code>none</code></p>
                 </div>
             </details>
@@ -307,6 +325,8 @@ LTC_DAEMON_USER=user
 LTC_DAEMON_PASS=pass
 
 ETH_DAEMON_URL=https://ethereum.publicnode.com
+
+BNB_DAEMON_URL=https://bsc-dataseed.binance.org
 ```
 
 ## Misc CLI options

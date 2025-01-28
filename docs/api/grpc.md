@@ -145,6 +145,12 @@ Updates the user`s crypto keys.
       <td>No</td>
       <td>ETH crypto keys update request.</td>
     </tr>
+    <tr>
+      <td>bnbReq</td>
+      <td><a href="#bnbkeysupdaterequest">BnbKeysUpdateRequest</a></td>
+      <td>No</td>
+      <td>BNB crypto keys update request.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -547,6 +553,102 @@ None.
       <td>ARB_ERC20</td>
       <td>ERC-20 token.</td>
     </tr>
+    <tr>
+      <td>BNB</td>
+      <td>None.</td>
+    </tr>
+    <tr>
+      <td>BSCUSD_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>USDC_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>DAI_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>BUSD_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>WBTC_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>BTCB_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>UNI_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>LINK_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>AAVE_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>MATIC_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>SHIB_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>ATOM_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>ARB_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>ETH_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>XRP_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>ADA_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>TRX_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>DOGE_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>LTC_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>BCH_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>TWT_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>AVAX_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
+    <tr>
+      <td>CAKE_BEP20</td>
+      <td>BEP-20 token</td>
+    </tr>
   </tbody>
 </table>
 
@@ -613,6 +715,25 @@ None.
 </table>
 
 ### EthKeysUpdateRequest
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>masterPubKey</td>
+      <td>string</td>
+      <td>None.</td>
+    </tr>
+  </tbody>
+</table>
+
+### BnbKeysUpdateRequest
 
 <table>
   <thead>
