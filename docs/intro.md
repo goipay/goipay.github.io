@@ -33,3 +33,4 @@ It was built as a service-to-service solution with limited functionality, primar
 - BTC
 - LTC
 - ETH (USDT, USDC, DAI, WBTC, UNI, LINK, AAVE, CRV, MATIC, SHIB, BNB, ATOM, ARB)
+- BNB (BSC-USD, USDC, DAI, BUSD, WBTC, BTCB, UNI, LINK, AAVE, MATIC, SHIB, ATOM, ARB, ETH, XRP, ADA, TRX, DOGE, LTC, BCH, TWT, AVAX, CAKE)
